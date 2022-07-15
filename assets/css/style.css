@@ -141,6 +141,7 @@ hr{
   display: flex;
   list-style: none;
   padding-right: 270px;
+  justify-content: space-around;
 }
 .ul-1 li a{
   text-decoration: none;
