@@ -1,0 +1,189 @@
+:root{
+    --tipografia-facebook: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    --color-azul-facebook: #166fe5;
+    --color-verde-facebook: #42b72a;
+    --color-gris-facebook: #f0f2f5;
+    --color-blanco-facebook: #ffffff;
+    --color-negro-facebook: #000000;
+    --color-azul-facebook-hover: #156de0;
+    --color-gris-border: #dddfe2;
+    --color-verde-facebook-hover: #329d1d;
+    --color-gris-facebook-footer: #737373;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /*ocultar la barra horizontal de scroll*/
+}
+.container1{
+  padding-bottom: 112px;
+  padding-top: 72px;
+  background: var(--color-gris-facebook);
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-column-gap: 100px;
+}
+.container1-1{
+  margin: 0 186px;
+  padding: 20px 0;
+  width: 980px;
+}
+.container1-1-1{
+  padding: 112px 0 16px;
+  width: 580px;
+}
+.container1-1-1 img{
+  height: 106px;
+  margin: -28px;
+}
+.container1-1-1 h2{
+  font-family: var(--tipografia-facebook);
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;/*observar*/
+  width: 500px;
+}
+.container1-2-2{
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+  background: var(--color-blanco-facebook);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputs{
+    margin: 15px 15px 0 15px;
+}
+.inputs input{
+    border: 1px solid var(--color-gris-border);
+    font-size: 17px;
+    width: 360px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    display: block;
+}
+.btn-iniciar-sesion{
+    width: 360px;
+    height: 52px;
+    padding: 10px 30px;
+    margin: 16px;
+    background: var(--color-azul-facebook);
+    color: var(--color-blanco-facebook);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--tipografia-facebook);
+    border-radius: 6px;
+    border: none;
+    transition: all 200ms;
+}
+.btn-iniciar-sesion:hover{
+    background: var(--color-azul-facebook-hover);
+}
+.formulario a{
+    color: var(--color-azul-facebook);
+    font-family: var(--tipografia-facebook);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.formulario a:hover{
+    text-decoration: underline;
+}
+hr{
+  margin: 23px;
+  border-left: 350px solid var(--color-gris-border);
+}
+.cuenta-nueva{
+  padding: 0 16px;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  background-color: var(--color-verde-facebook);
+  color: var(--color-blanco-facebook);
+  font-weight: bold;
+  border: none;
+}
+.cuenta-nueva{
+  background: var(--color-verde-facebook);
+}
+.container1-2-3{
+  font-family: var(--tipografia-facebook);
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 28px;
+  width: 400px;
+  padding: 23px;
+  text-align: center
+}
+.container1-2-3 a{
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--color-negro-facebook);
+}
+.container1-2-3 a:hover{
+  text-decoration: underlines;
+}
+.container2-2{
+  padding-top: 20px;
+  margin: 0 186px;
+  color: var(--color-gris-facebook-footer);  
+}
+.ul-1{
+  display: flex;
+  list-style: none;
+  padding-right: 270px;
+}
+.ul-1 li a{
+  text-decoration: none;
+  color: var(--color-gris-facebook-footer);
+  font-family: var(--tipografia-facebook);
+  font-size: 12px;
+}
+.buton-cruz{
+  border: 1px solid;
+  border-radius: 2px;
+  box-sizing: content-box;
+  font-size: 12px;
+  font-weight: bold;
+  justify-content: center;
+  padding: 0 8px;
+  height: 18px;
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+}
+.buton-cruz:hover{
+  background: var(--color-gris-border);
+}
+.hr-2{
+  margin: 10px 0;
+}
+.ul-2{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.ul-2 li{
+  padding: 0 15px 0 0;
+}
+.ul-2 li a{
+  text-decoration: none;
+  color: var(--color-gris-facebook-footer);
+  font-family: var(--tipografia-facebook);
+  font-size: 12px;
+  
+}
+
+span{
+  font-size: 12px;
+}
